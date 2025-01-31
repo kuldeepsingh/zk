@@ -3,6 +3,7 @@ title: nvim-keys
 date: January 31, 2025
 tags: [nvim]
 ---
+## NVIM Binding
 
 ### Buffer handling 
    - gb for opening the buffer using snipe
