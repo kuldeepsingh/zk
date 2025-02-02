@@ -5,6 +5,10 @@ tags: [nvim]
 ---
 ## NVIM Binding
 
+### Tmux Keys
+   - CTRL-A SHIFT-T for starting to log the tmux screen. it will store in .tmux/logging
+   - 'D' for deleting the buffer inside snipe menu
+
 ### Buffer handling 
    - gb for opening the buffer using snipe
    - 'D' for deleting the buffer inside snipe menu
@@ -19,34 +23,34 @@ tags: [nvim]
    - <leader>e
 
 ### Token listing of the file
-    vim.keymap.set("n", "<leader>ts", "<cmd>SymbolsOutline<CR>", { desc = "Toggle the symbol outline" })
+   - vim.keymap.set("n", "<leader>ts", "<cmd>SymbolsOutline<CR>", { desc = "Toggle the symbol outline" })
 
 ### Terminal
-    vim.keymap.set("n", "<leader>tt", "<cmd>ToggleTerm<CR>", { desc = "Toggle the terminal" })
+   - vim.keymap.set("n", "<leader>tt", "<cmd>ToggleTerm<CR>", { desc = "Toggle the terminal" })
 
 ### Undo list
-    vim.keymap.set("n", "<leader>tu>", vim.cmd.UndotreeToggle)
+   - vim.keymap.set("n", "<leader>tu>", vim.cmd.UndotreeToggle)
 
 ### Telescope    
-    vim.keymap.set("n", "<leader>ff", builtin.find_files, { desc = "Telescope find files" })
-    vim.keymap.set("n", "<leader>fg", builtin.live_grep, { desc = "Telescope live grep" })
-    vim.keymap.set("n", "<leader>fd", builtin.grep_string, { desc = "Telescope on curesor word live-grep" })
-    vim.keymap.set("n", "<leader>fb", builtin.buffers, { desc = "Telescope buffers" })
-    vim.keymap.set("n", "<leader>fh", builtin.help_tags, { desc = "Telescope help tags" })
-    vim.keymap.set("n", "<leader>ft", builtin.lsp_document_symbols, { desc = "Telescope current buffer tags" })
+   - vim.keymap.set("n", "<leader>ff", builtin.find_files, { desc = "Telescope find files" })
+   - vim.keymap.set("n", "<leader>fg", builtin.live_grep, { desc = "Telescope live grep" })
+   - vim.keymap.set("n", "<leader>fd", builtin.grep_string, { desc = "Telescope on curesor word live-grep" })
+   - vim.keymap.set("n", "<leader>fb", builtin.buffers, { desc = "Telescope buffers" })
+   - vim.keymap.set("n", "<leader>fh", builtin.help_tags, { desc = "Telescope help tags" })
+   - vim.keymap.set("n", "<leader>ft", builtin.lsp_document_symbols, { desc = "Telescope current buffer tags" })
 
 ### DAP
-    vim.keymap.set("n", "<leader>db", "<cmd>DapToggleBreakpoint<CR>", { desc = "Toggle the break point" })
-    vim.keymap.set("n", "<F2>", require("dap").toggle_breakpoint)
+   - vim.keymap.set("n", "<leader>db", "<cmd>DapToggleBreakpoint<CR>", { desc = "Toggle the break point" })
+   - vim.keymap.set("n", "<F2>", require("dap").toggle_breakpoint)
 
-    vim.keymap.set("n", "<leader>dr", "<cmd>DapContinue<CR>", { desc = "run or continue the debugger" })
-    vim.keymap.set("n", "<F5>", require("dap").continue)
+   - vim.keymap.set("n", "<leader>dr", "<cmd>DapContinue<CR>", { desc = "run or continue the debugger" })
+   - vim.keymap.set("n", "<F5>", require("dap").continue)
 
-    vim.keymap.set("n", "<leader>dn", require("dap").step_over)
-    vim.keymap.set("n", "<F7>", require("dap").step_over)
+   - vim.keymap.set("n", "<leader>dn", require("dap").step_over)
+   - vim.keymap.set("n", "<F7>", require("dap").step_over)
 
-    vim.keymap.set("n", "<leader>di", require("dap").step_into)
-    vim.keymap.set("n", "<F8>", require("dap").step_into)
+   - vim.keymap.set("n", "<leader>di", require("dap").step_into)
+   - vim.keymap.set("n", "<F8>", require("dap").step_into)
 
-    vim.keymap.set("n", "<leader>do", require("dap").step_out)
-    vim.keymap.set("n", "<F9>", require("dap").step_out)
+   - vim.keymap.set("n", "<leader>do", require("dap").step_out)
+   - vim.keymap.set("n", "<F9>", require("dap").step_out)
