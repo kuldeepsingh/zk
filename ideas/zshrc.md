@@ -116,6 +116,7 @@ if [ "$TMUX" = "" ]; then tmux; fi
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+alias gdrive="cd gdrive"
 alias dlog=zk
 alias vi=nvim
 alias ubuntu="sshpass -p "kuldeeps" ssh -p 2580 -o StrictHostKeyChecking=accept-new kuldeeps@localhost"
@@ -159,4 +160,3 @@ source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/opt/homebrew/share/zsh-syntax-highlighting/highlighters
 export ZK_NOTEBOOK_DIR=/Users/kuldeepsingh/notes
-

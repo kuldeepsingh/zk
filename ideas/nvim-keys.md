@@ -7,9 +7,20 @@ tags: [nvim]
 
 ### Tmux Keys
    - CTRL-A SHIFT-T for starting to log the tmux screen. it will store in .tmux/logging
-   - 'D' for deleting the buffer inside snipe menu
 
-### Buffer handling 
+###  VIM visual mode 
+   - USE CTRL-V to invoke the visual mode and use the arrow keys to select the desired block.
+
+###  NVIM - List all buffers
+   - hitting "`" key will list all the buffers
+
+###  List all registers
+   - hitting " key will list all the registers
+
+###  Spell check
+   - hitting z= key will enter the spell mode
+   
+### Snipe File Level Buffer handling 
    - gb for opening the buffer using snipe
    - 'D' for deleting the buffer inside snipe menu
 
@@ -21,6 +32,8 @@ tags: [nvim]
 
 ### Toggle file browser
    - <leader>e
+   - Press SHIFT-H to hide the dot files
+   - Press '?' to get the key help
 
 ### Token listing of the file
    - vim.keymap.set("n", "<leader>ts", "<cmd>SymbolsOutline<CR>", { desc = "Toggle the symbol outline" })
