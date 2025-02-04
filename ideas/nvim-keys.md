@@ -7,6 +7,7 @@ tags: [nvim]
 
 ### Tmux Keys
    - CTRL-A SHIFT-T for starting to log the tmux screen. it will store in .tmux/logging
+   - CTRL-A CTRL-o for shifting the screen location
 
 ###  VIM visual mode 
    - USE CTRL-V to invoke the visual mode and use the arrow keys to select the desired block.
@@ -31,7 +32,7 @@ tags: [nvim]
    - inside nvim CTRL-P
 
 ### Toggle file browser
-   - <leader>e
+   - CTRL+n will toggle the file browser bar 
    - Press SHIFT-H to hide the dot files
    - Press '?' to get the key help
 
