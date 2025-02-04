@@ -27,7 +27,7 @@ tags: [nvim]
 ### Toggle comment / uncomment 
    - visual mode 'v' gc
 
-### Open the save session
+### Open the saved session
    - inside nvim CTRL-P
 
 ### Toggle file browser
