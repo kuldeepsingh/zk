@@ -6,11 +6,13 @@ tags: [nvim]
 ## NVIM Binding
 
 ### Tmux Keys
-   - CTRL-A SHIFT-T for starting to log the tmux screen. it will store in .tmux/logging
-   - CTRL-A CTRL-o for shifting the screen location
+   - CTRL-a SHIFT-T for starting to log the tmux screen. it will store in .tmux/logging
+   - CTRL-a CTRL-o for shifting the screen location
+   - CTRL-a-a is used to go to beginning of the shell line
 
 ###  VIM visual mode 
-   - USE CTRL-V to invoke the visual mode and use the arrow keys to select the desired block.
+   - USE CTRL-v to invoke the visual mode and use the arrow keys to select the desired block.
+   - More mapping are defined in nvim/lua/mapping.lua
 
 ###  NVIM - List all buffers
    - hitting "`" key will list all the buffers
@@ -29,7 +31,8 @@ tags: [nvim]
    - visual mode 'v' gc
 
 ### Open the saved session
-   - inside nvim CTRL-P
+   - inside nvim CTRL-p
+   - CTRL-d is used to delete the saved session one by one.
 
 ### Toggle file browser
    - CTRL+n will toggle the file browser bar 
