@@ -1,5 +1,5 @@
 ---
-title: commands
+title: IDEAS :: commands
 date: February 10, 2025
 tags: []
 ---
