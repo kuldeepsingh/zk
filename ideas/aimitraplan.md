@@ -1,5 +1,5 @@
 ---
-title: IDEA :: AI-100DAYS
+title: IDEA - AI100DAYS
 date: February 10, 2025
 tags: []
 ---
@@ -163,11 +163,21 @@ tags: []
 
 ### Week 14: Capstone project
 
-## NOTES : Pick a project from 1 of these and use your chatbots to ask LLMs to help you plan in detail and then build an early code version of this. Deploy on Gradio.
-Consumer
- 1. Globetrotter's Guide - An end-to-end travel planner utilizing the Amadeus API for flight, hotel, and point-of-interest data, making travel planning effortless and efficient. More information about Amadeus API: https://developers.amadeus.com/self-service
- 2. LifeMitra - A personal life assistant capable of organizing your calendar, setting reminders, making reservations, and providing suggestions for everyday tasks, all using natural language processing and reinforcement learning.
- 3. ShopSmart - A smart shopping assistant that uses image recognition and recommendation algorithms to assist users in making well-informed purchase decisions, including price comparisons, product recommendations, and more.
+## NOTES : Use your chatbots to ask LLMs to help you plan in detail and then build an early code version of this. Deploy on Gradio.
+## Consumer list
+ 1. Globetrotter's Guide - 
+    - An end-to-end travel planner utilizing the Amadeus API for flight, hotel, 
+      and point-of-interest data, making travel planning effortless and efficient. 
+      More information about Amadeus API: https://developers.amadeus.com/self-service
+
+ 2. LifeMitra 
+    - A personal life assistant capable of organizing your calendar, setting reminders,
+      making reservations, and providing suggestions for everyday tasks, all using natural 
+      language processing and reinforcement learning.
+ 3. ShopSmart 
+    - A smart shopping assistant that uses image recognition and recommendation algorithms
+      to assist users in making well-informed purchase decisions, including price comparisons, 
+      product recommendations, and more.
 
 
 ### Week 15: Advanced Topics
