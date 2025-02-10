@@ -1,5 +1,5 @@
 ---
-title: zshrc
+title: Ideas - zshrc
 date: January 31, 2025
 tags: [zshrc]
 ---

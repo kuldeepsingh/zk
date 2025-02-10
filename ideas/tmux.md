@@ -1,5 +1,5 @@
 ---
-title: tmux
+title: Ideas - tmux
 date: January 31, 2025
 tags: []
 ---

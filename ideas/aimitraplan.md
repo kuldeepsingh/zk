@@ -1,5 +1,5 @@
 ---
-title: IDEA - AI100DAYS
+title: Ideas - Ai100Days
 date: February 10, 2025
 tags: []
 ---

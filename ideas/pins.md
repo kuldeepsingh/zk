@@ -1,5 +1,5 @@
 ---
-title: pins
+title: Ideas - pins
 date: February 04, 2025
 tags: []
 ---

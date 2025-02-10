@@ -1,5 +1,5 @@
 ---
-title: nvim-keys
+title: Ideas - nvim-keys
 date: January 31, 2025
 tags: [nvim]
 ---

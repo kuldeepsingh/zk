@@ -1,9 +1,10 @@
 ---
-title: scripts
+title: Ideas - scripts
 date: February 10, 2025
 tags: []
 ---
-### Build Tags for datapane
+### Build Tags/Cscope for datapane 
+### ------------------------------
 
 #!/bin/sh -e
 
