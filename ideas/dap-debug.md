@@ -1,5 +1,5 @@
 ---
-title: IDEA - c_debug
+title: IDEA - DAP_debug_NVIM
 date: February 12, 2025
 tags: []
 ---
