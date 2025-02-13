@@ -96,3 +96,8 @@ tags: [nvim]
 - zE for deleting all the folds
 - zM for closing all the folds
 - zO for Opening all the folds
+
+### diff files
+
+- <leader>d1 for diff file with current file
+- <leader>d2 for choosing the 2 file to do the diff
