@@ -4,7 +4,6 @@ date: January 31, 2025
 tags: []
 ---
 
-
 # 0 is too far from ` ;)
 set -g base-index 1
 
@@ -48,6 +47,7 @@ set -g pane-active-border-style fg=#699bed
 set -g pane-border-status top
 #setw -g pane-border-format ' #{=/-20/…:pane_title} [#{=/-20/…:pane_current_command}] #(pgrep -P "#{pane_pid}" | tr "\n" " ")#{pane_current_path} #{?alternate_on,<Alt Mode> ,}'
 setw -g pane-border-format ' [#{=/-20/…:pane_current_command}] #(pgrep -P "#{pane_pid}" | tr "\n" " ")#{pane_current_path} #{?alternate_on,<Alt Mode> ,}'
+#set -g pane-border-format "#{pane_title}"
 
 set-window-option -g mode-keys vi
 
@@ -57,6 +57,10 @@ bind-key -T copy-mode-vi 'y' send -X copy-selection
 unbind -T copy-mode-vi MouseDragEnd1Pane
 bind -n S-Up copy-mode -e \; send-keys -X scroll-up
 bind -n S-Down copy-mode -e \; send-keys -X scroll-down
+
+# don't exit copy mode when dragging with mouse
+unbind -T copy-mode-vi MouseDragEnd1Pane
+
 
 # Reference auto logging sh script for pipe-pane
 # tpm plugin 
@@ -71,8 +75,8 @@ set -g @plugin 'erikw/tmux-powerline'
 set -g @plugin 'tmux-plugins/tmux-logging'
 
 set -g status-position bottom
-set -g @resurrect-capture-pane-contents 'on'
-set -g @continuum-restore 'on'
+set -g @resurrect-capture-pane-contents 'off'
+set -g @continuum-restore 'off'
 
 # Other examples:
 # set -g @plugin 'github_username/plugin_name'
