@@ -101,3 +101,7 @@ tags: [nvim]
 
 - <leader>d1 for diff file with current file
 - <leader>d2 for choosing the 2 file to do the diff
+
+### Zen mode
+
+- under normal mode press 'zen' to toggle the zen mode.
