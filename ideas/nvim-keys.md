@@ -51,15 +51,15 @@ tags: [nvim]
 
 ### Token listing of the file
 
-- vim.keymap.set("n", "<leader>ts", "<cmd>SymbolsOutline<CR>", { desc = "Toggle the symbol outline" })
+- vim.keymap.set("n", "sym", "<cmd>SymbolsOutline<CR>", { desc = "Toggle the symbol outline" })
 
 ### Terminal
 
-- vim.keymap.set("n", "<leader>tt", "<cmd>ToggleTerm<CR>", { desc = "Toggle the terminal" })
+- vim.keymap.set("n", "ter", "<cmd>ToggleTerm<CR>", { desc = "Toggle the terminal" })
 
 ### Undo list
 
-- vim.keymap.set("n", "<leader>tu>", vim.cmd.UndotreeToggle)
+- vim.keymap.set("n", "undo", vim.cmd.UndotreeToggle)
 
 ### Telescope
 
