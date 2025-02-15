@@ -97,7 +97,7 @@ tags: [nvim]
 - zM for closing all the folds
 - zO for Opening all the folds
 
-### diff files
+### Diff files
 
 - <leader>d1 for diff file with current file
 - <leader>d2 for choosing the 2 file to do the diff
@@ -105,3 +105,17 @@ tags: [nvim]
 ### Zen mode
 
 - under normal mode press 'zen' to toggle the zen mode.
+
+### Yazi mode
+
+- yazi command can be used to open the file browser, 
+- <CR> for opening current selected file as buffer
+- <C-v> For opening the current file using vertical Split
+- <C-x for opening the file in the horizontal split
+
+### Cscope
+
+- <leader>cc and <leader>cd for checkinfg the call stack inside or outside.
+- saving a file will trigger the DB building in the root
+- ctags are also built.
+
