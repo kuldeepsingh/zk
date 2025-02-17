@@ -119,3 +119,32 @@ tags: [nvim]
 - saving a file will trigger the DB building in the root
 - ctags are also built.
 
+
+### Clangd
+
+- cmake -S . -G "Unix Makefiles" -B cmake
+- CMakeLists.txt file needs to be created. Contents are below
+
+    cmake_minimum_required(VERSION 3.8)
+    project(dataplane-stack)
+
+    set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+    # Change path from /src if needed, or add more directories
+    file(GLOB_RECURSE sources
+            "${CMAKE_SOURCE_DIR}/*.c"
+            "${CMAKE_SOURCE_DIR}/*.cc"
+            "${CMAKE_SOURCE_DIR}/*.cpp"
+            "${CMAKE_SOURCE_DIR}/*.h"
+            "${CMAKE_SOURCE_DIR}/*.hh"
+            "${CMAKE_SOURCE_DIR}/*.hpp"
+        )
+    message(STATUS "Files are ${sources}")
+    # Add precompiler definitions like that:
+    add_definitions(-Wall)
+
+    add_executable(my_app ${sources})
+
+    # Add more include directories if needed
+    target_include_directories(my_app PUBLIC "${CMAKE_SOURCE_DIR}/include")
+ - ln -sf cmake/compile_commands.json   
