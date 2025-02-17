@@ -6,6 +6,11 @@ tags: [nvim]
 
 ## NVIM Binding
 
+### Full Screen  
+
+- CTRL-a z is to maximize the tmux window 
+- "mt" will toggle full screen in the windows split or diff conditions
+
 ### Tmux Keys
 
 - CTRL-a SHIFT-T for starting to log the tmux screen. it will store in .tmux/logging
