@@ -130,26 +130,39 @@ tags: [nvim]
 - cmake -S . -G "Unix Makefiles" -B cmake
 - CMakeLists.txt file needs to be created. Contents are below
 
-    cmake_minimum_required(VERSION 3.8)
-    project(dataplane-stack)
+        cmake_minimum_required(VERSION 3.8)
+        project(dataplane-stack)
 
-    set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+        set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-    # Change path from /src if needed, or add more directories
-    file(GLOB_RECURSE sources
-            "${CMAKE_SOURCE_DIR}/*.c"
-            "${CMAKE_SOURCE_DIR}/*.cc"
-            "${CMAKE_SOURCE_DIR}/*.cpp"
-            "${CMAKE_SOURCE_DIR}/*.h"
-            "${CMAKE_SOURCE_DIR}/*.hh"
-            "${CMAKE_SOURCE_DIR}/*.hpp"
-        )
-    message(STATUS "Files are ${sources}")
-    # Add precompiler definitions like that:
-    add_definitions(-Wall)
+        # Change path from /src if needed, or add more directories
+        file(GLOB_RECURSE sources
+                "${CMAKE_SOURCE_DIR}/*.c"
+                "${CMAKE_SOURCE_DIR}/*.cc"
+                "${CMAKE_SOURCE_DIR}/*.cpp"
+                "${CMAKE_SOURCE_DIR}/*.h"
+                "${CMAKE_SOURCE_DIR}/*.hh"
+                "${CMAKE_SOURCE_DIR}/*.hpp"
+            )
+        message(STATUS "Files are ${sources}")
+        # Add precompiler definitions like that:
+        add_definitions(-Wall)
 
-    add_executable(my_app ${sources})
+        add_executable(my_app ${sources})
 
-    # Add more include directories if needed
-    target_include_directories(my_app PUBLIC "${CMAKE_SOURCE_DIR}/include")
+        # Add more include directories if needed
+        target_include_directories(my_app PUBLIC "${CMAKE_SOURCE_DIR}/include")
  - ln -sf cmake/compile_commands.json   
+
+### C code browsing ( Done by LSP using trouble, cscope_map.nvim) 
+- Side reference using Trouble.nvim
+  <leader>cl
+- definition 
+     <C-]> or "gd" or "cgg"
+- find references for symbol
+     "<leafer>fc"  or "gr" or "cgs" 
+- find functions calling this function
+     "cgc" or "<leader>cc"
+- find functions called by this function
+     "cd" or "<leader>cc"
+   
