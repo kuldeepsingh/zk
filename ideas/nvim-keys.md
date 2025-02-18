@@ -161,6 +161,8 @@ tags: [nvim]
      <C-]> or "gd" or "cgg"
 - find references for symbol
      "<leafer>fc"  or "gr" or "cgs" 
+- find references for text
+     "<leafer>fc"  or  "cgt" 
 - find functions calling this function
      "cgc" or "<leader>cc"
 - find functions called by this function
