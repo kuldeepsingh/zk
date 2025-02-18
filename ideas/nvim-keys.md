@@ -11,6 +11,13 @@ tags: [nvim]
 - CTRL-a z is to maximize the tmux window 
 - "mt" will toggle full screen in the windows split or diff conditions
 
+### BufferList 
+
+- <leader>bb is to oen the buffer list, Chose number to open the current buffer.
+- Roundrobin buffers using the tab key
+- use "s" to save, "d" to delete. If any buffer is modified, a red circle will be shown in
+  front of that buffer and cannnot be saved.
+
 ### Tmux Keys
 
 - CTRL-a SHIFT-T for starting to log the tmux screen. it will store in .tmux/logging
