@@ -31,3 +31,11 @@ tags: []
 # ping Commands 
 # --------------------------------------------------------------------------------
 * ping -I 10.219.2.8 138.241.117.109 -s 800 -c 1000 -f
+
+# java Code compilation and running  
+# --------------------------------------------------------------------------------
+* Create a project 
+   mvn archetype:generate -DgroupId=com.example -DartifactId=CarApp -DarchetypeArtifactId=maven-archetype-quickstart -Di
+nteractiveMode=false
+* mvn clean compile
+* mvn exec:java -Dexec.mainClass="com.example.Main" 

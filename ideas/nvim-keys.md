@@ -9,7 +9,7 @@ tags: [nvim]
 ### Full Screen  
 
 - CTRL-a z is to maximize the tmux window 
-- "mt" will toggle full screen in the windows split or diff conditions
+- "<leader>z" will toggle full screen in the windows split or diff conditions
 
 ### BufferList 
 
