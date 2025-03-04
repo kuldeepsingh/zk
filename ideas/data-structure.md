@@ -78,8 +78,7 @@ Case 4: The sibling is black, and the sibling’s children are red.
 Perform a rotation and recoloring to ensure the tree remains balanced and adheres to red-black properties.
 Finally, if the root is ever red after deletions, it is recolored to black.
 
-=======================================================================================================================================================
-
+======================================================================================================================================================
 
 # AVL trees
 -----------
@@ -89,11 +88,19 @@ A balanced BST ( Binary Search Trees).An AVL tree (named after its inventors Ade
 Balance Factor (BF)=Height of Left Subtree−Height of Right Subtree
 
 *Types of Rotations*
---------------------
+-----------
 There are four types of rotations used to maintain the AVL tree's balance:
 
-Left Rotation (LL Rotation): Used when the right subtree is heavier.
-Right Rotation (RR Rotation): Used when the left subtree is heavier.
-Left-Right Rotation (LR Rotation): A combination of left and right rotations, used when the left subtree is heavy, but the right child of the left subtree is heavier.
-Right-Left Rotation (RL Rotation): A combination of right and left rotations, used when the right subtree is heavy, but the left child of the right subtree is heavier.
+- Left Rotation (LL Rotation): Used when the right subtree is heavier.
+- Right Rotation (RR Rotation): Used when the left subtree is heavier.
+- Left-Right Rotation (LR Rotation): A combination of left and right rotations, used when the left subtree is heavy, but the right child of the left subtree is heavier.
+- Right-Left Rotation (RL Rotation): A combination of right and left rotations, used when the right subtree is heavy, but the left child of the right subtree is heavier.
 
+======================================================================================================================================================
+
+# RB vs AVL
+-----------
+
+Red-Black Trees have several advantages over AVL Trees, particularly when it comes to handling insertions and deletions more efficiently, requiring fewer rotations and simpler balancing. As a result, RB Trees are often preferred in scenarios where frequent updates (insertions/deletions) are common, such as in data structures like maps or sets in standard libraries.
+
+======================================================================================================================================================
