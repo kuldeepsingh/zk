@@ -18,3 +18,4 @@ tags: [linux, kernel, build]
  - Assembler: Another toolchain program, the assembler, assembles each .s into a .o file, an object file4. An assembly file is merely a textual 
    representation of an object file; assemblers are not particularly interesting programs. 
  - Linker: links all of your object files into a final executable or binary, traditionally given the name a.out
+
