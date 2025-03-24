@@ -39,3 +39,6 @@ tags: []
 nteractiveMode=false
 * mvn clean compile
 * mvn exec:java -Dexec.mainClass="com.example.Main" 
+
+# DPDK compilation 
+
