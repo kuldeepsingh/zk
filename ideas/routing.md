@@ -1,5 +1,5 @@
 ---
-title: Ideas - network-protocol
+title: Ideas - routing 
 date: May 15, 2025
 tags: []
 ---
