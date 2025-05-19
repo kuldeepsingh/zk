@@ -14,8 +14,7 @@ tags: []
 - GPIO
   - Simple Control of External Devices: LEDs 
   - Switches and Buttons: GPIO pins can detect when a button is pressed or a switch is toggled.
-  - GPIO pins can be set to trigger interrupts, which allow the microcontroller to react immediately to events like a button press or
-    sensor activation without constantly polling the pin.
+  - GPIO pins can be set to trigger interrupts, which allow the microcontroller to react immediately to events like a button press or sensor activation without constantly polling the pin.
 - Peripherals
     UARTs
     SPI controllers

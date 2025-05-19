@@ -13,6 +13,8 @@ Distance vector
 Path Vector - BGP
 link State - OSPF
 
+OSPF used metrics whereas BGP used attributes to find the next-hop
+
 ===============================================================================
 # BGP (Path Routing Vector Protocol)
 ===============================================================================
@@ -51,7 +53,7 @@ Route Advertisements
     AS_PATH
     NEXT_HOP
     LOCAL_PREF
-    MED, COMMUNITY, etc.
+    MED(Multi Exit Discriminator), COMMUNITY, etc.
     NLRI (Network Layer Reachability Info):
     List of IP prefixes (e.g., 192.0.2.0/24)
 

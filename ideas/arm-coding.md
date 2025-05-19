@@ -30,9 +30,13 @@ In ARM processors, "MSP" stands for "Main Stack Pointer" and is the default stac
 ![title](../Images/arm-registers.png)
 
 ### Device Tree 
+
 Device Tree (DT):
+
 Purpose: The Device Tree is a data structure used in Linux to describe the hardware of a system. It provides a standardized way for the kernel to access hardware information at runtime, including devices like CPUs, memory, buses, and peripheral devices (e.g., UART, I2C, GPIO).
+
 Where it's used: The Device Tree is typically passed to the Linux kernel from the bootloader (e.g., U-Boot) and is often used in systems like ARM and PowerPC-based platforms, but it is not limited to those. It's commonly found in the /dts/ (Device Tree Source) directory in the kernel source.
+
 What it does: The Device Tree allows the kernel to discover and configure devices at runtime, making it more portable. It abstracts hardware details from the kernel code, which makes the kernel code less dependent on specific machine configurations.
 
 In a typical ARM system:

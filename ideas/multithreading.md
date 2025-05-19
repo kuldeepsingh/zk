@@ -167,6 +167,7 @@ pthread_create()
 pthread_mutex_init()
 pthread_mutex_lock()
 pthread_mutex_unlock()
+pthread_mutex_destroy()
 pthread_rwlock_t // multiple read and single write
 
 

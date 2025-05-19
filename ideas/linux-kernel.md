@@ -31,6 +31,7 @@ The bootloader (such as GRUB) is responsible for loading the kernel into memory 
 
 Fixed Address: In some systems, the bootloader loads the kernel to a predefined memory location, such as 0x100000 (1MB) for older systems. This is often done in simpler systems where the memory layout is static.
 Dynamic Address: On more complex systems, the bootloader may load the kernel at a location determined by available memory or the system's configuration. In these cases, the kernel can be loaded to an arbitrary location.
+
 2. Relocation During Boot:
 After the bootloader loads the kernel into memory, the kernel is often not directly mapped to the final address where it will reside. Instead, the kernel itself may perform some relocation steps to adjust the memory addresses and layout.
 
@@ -79,10 +80,16 @@ Virtual Addresses:
 In modern systems, including Linux, virtual addresses are used throughout the system. These addresses are independent of the actual physical memory locations. The operating system, including the kernel, operates in a virtual memory space.
 The kernel uses virtual addresses to abstract away the physical layout of memory, allowing for features like memory protection, swapping, and separation between user space and kernel space.
 The Memory Management Unit (MMU) is responsible for translating these virtual addresses into physical addresses, often using paging or segmentation, depending on the architecture.
+
 Why the Linux Kernel Uses Virtual Addresses:
+
 Memory Abstraction and Flexibility: Virtual addresses provide a layer of abstraction between the hardware (physical memory) and the running programs, including the kernel. This allows the kernel to use a consistent view of memory, no matter the underlying physical memory.
+
 Isolation: Virtual addresses ensure that different parts of the system (user space, kernel space, etc.) are isolated from each other, improving security and stability.
+
 Efficient Memory Management: With virtual memory, the kernel can manage memory more efficiently. It can employ techniques like paging, swapping, and mapping, allowing for better memory utilization and protection.
+
 Large Address Spaces: Virtual addresses allow the use of large address spaces that can exceed the actual physical memory. For example, the kernel can use a larger virtual address space than the available physical memory, allowing features like demand paging.
+
 Summary:
 The Linux kernel uses virtual addresses (not logical addresses) as part of its memory management. The kernel operates in virtual memory space, which is mapped to physical memory via mechanisms like paging and the Memory Management Unit (MMU). This allows for a more flexible, secure, and efficient system compared to using logical addresses.
