@@ -9,7 +9,7 @@ tags: []
 Distance vector 
    - RIP ( works on hop count )
        - Rip V1 - Classfull routing 
-       - RIPV2 - Classless routing
+       - RIPV2  - Classless routing
 Path Vector - BGP
 link State - OSPF
 

@@ -4,7 +4,7 @@ date: May 19, 2025
 tags: []
 ---
 
-ADVA Mgmt plan used the Netconf and restconf for the configuration 
+ADVA Mgmt plan used the snmp, cli, Netconf and restconf for the configuration 
 Flask was implementing the restconf
 Netconf was implemented using netopeer, sysrepo
 

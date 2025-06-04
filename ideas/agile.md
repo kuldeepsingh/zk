@@ -4,9 +4,17 @@ date: June 04, 2025
 tags: []
 ---
 
+# Project phases 
+ - Project Initation
+ - Project Planning 
+ - Project Execution 
+ - Project Monitoring and Control
+ - Project Closure
+
+
 https://business.adobe.com/blog/basics/agile
 
-The 4 core values of Agile are:
+# The 4 core values of Agile are:
 
 1. Individuals and interactions over processes and tools.
 
@@ -26,22 +34,22 @@ This value is one of the biggest departures from traditional project management.
 
 =============================
 
-What are the 12 principles of Agile?
+# What are the 12 principles of Agile?
 
 Agile methodologies can be as diverse and unique as each individual team. However, the 12 principles of Agile should always guide your decisions and product development.
 
-Our highest priority is to satisfy the customer through early and continuous delivery of valuable software (or whatever else you deliver).
-Welcome changing requirements, even late in development. Agile processes harness change for the customer’s competitive advantage.
-Deliver projects frequently, from a couple of weeks to a couple of months, with a preference for the shorter timescale.
-Coordinating team members must work together daily throughout the project.
-Build projects around motivated individuals. Give them the environment and support they need and trust them to get the job done.
-Face-to-face conversation is the most efficient and effective method of conveying information to and within different teams.
-The final product is the primary measure of progress.
-Agile processes promote sustainable development. All stakeholders should be able to maintain a constant pace indefinitely.
-Continuous attention to technical excellence and good design enhances agility.
-Simplicity — the art of maximizing the amount of work not done — is essential.
-The best architectures, requirements, and designs emerge from self-organizing teams.
-At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
+- Our highest priority is to satisfy the customer through early and continuous delivery of valuable software (or whatever you deliver).
+- Welcome changing requirements, even late in development. Agile processes harness change for the customer’s competitive advantage.
+- Deliver projects frequently, from a couple of weeks to a couple of months, with a preference for the shorter timescale.
+- Coordinating team members must work together daily throughout the project.
+- Build projects around motivated individuals. Give them the environment and support they need and trust them to get the job done.
+- Face-to-face conversation is the most efficient and effective method of conveying information to and within different teams.
+- The final product is the primary measure of progress.
+- Agile processes promote sustainable development. All stakeholders should be able to maintain a constant pace indefinitely.
+- Continuous attention to technical excellence and good design enhances agility.
+- Simplicity — the art of maximizing the amount of work not done — is essential.
+- The best architectures, requirements, and designs emerge from self-organizing teams.
+- At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
 
 ===========================
 
