@@ -98,3 +98,18 @@ Agile's emphasis on regular planning and feedback provides greater visibility in
 
 More Freedom for Designers and Developers:
 Agile allows for a more flexible approach to project management, allowing designers and developers to work in a way that best suits their strengths. 
+
+
+## How do you handle people ?
+
+“In networking systems, precision and reliability are non-negotiable—so how I handle people is rooted in setting high standards while creating a culture where engineers can focus and thrive.
+
+I lead with clarity and empathy: I ensure every engineer and team knows not just the 'what', but the 'why' behind our work—whether it's optimizing BGP convergence, scaling data-plane throughput, or debugging kernel module issues.
+
+I adapt my approach based on the person: senior engineers often want autonomy and vision alignment, while junior folks need mentorship and steady feedback. I hold regular 1:1s to stay connected, surface blockers, and provide coaching. I also make sure that cross-team collaboration—say, between control plane and platform teams—is frictionless and respectful.
+
+In a past role, for instance, I noticed friction between protocol devs and QA during tight release windows. I created shared objectives, streamlined pre-release checklists, and assigned leads who could escalate quickly. That change improved both team morale and our release velocity.
+
+I’m also proactive about growth—I encourage engineers to publish RFCs internally, lead tech reviews, or own initiatives like automating route validation with FRR or integrating VPP for fast-path forwarding.
+
+Ultimately, I handle people by ensuring they’re aligned to a clear purpose, supported in their growth, and held accountable in a respectful, outcome-focused environment. In networking systems, that balance is what ensures technical excellence and team resilience.”
